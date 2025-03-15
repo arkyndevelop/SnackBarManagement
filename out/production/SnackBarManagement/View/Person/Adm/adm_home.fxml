@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.shape.Line?>
 
-<AnchorPane prefHeight="432.0" prefWidth="773.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Login">
+<AnchorPane prefHeight="432.0" prefWidth="773.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LoginController">
    <children>
       <ImageView fitHeight="490.0" fitWidth="773.0" pickOnBounds="true">
          <image>
@@ -21,7 +21,7 @@
                   <Image url="@../../../images/logo_lanchonete.jpeg" />
                </image>
             </ImageView>
-            <Pane prefHeight="490.0" prefWidth="142.0">
+            <Pane fx:id="paneMenuAdm" prefHeight="490.0" prefWidth="142.0">
                <children>
                   <Line endX="-53.0" endY="405.0" layoutX="181.0" layoutY="85.0" startX="-53.0" startY="-85.0" stroke="#868686" />
                   <ImageView fitHeight="82.0" fitWidth="84.0" layoutX="24.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
